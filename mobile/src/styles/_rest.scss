@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-size: 62.5%;
+}
+h1{
+    font-size: 3.9rem; 
+ }
+p,span,input,div,a,h2{
+    font-size: 1.4rem;
+    font-family: "Roboto",'Times New Roman', Times, serif;
+}
+h1,input{
+    font-family: 'Poppis', Arial, Helvetica, sans-serif;
+}
+input,h2{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+
+
+
+
+section{
+    img{
+        cursor: pointer;
+        transition: .4s;
+
+        &:hover{
+            filter: brightness(0.7);
+        }
+    }
+
+}
+

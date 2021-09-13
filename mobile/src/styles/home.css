@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 3.9rem;
+}
+
+p, span, input, div, a, h2 {
+  font-size: 1.4rem;
+  font-family: "Roboto",'Times New Roman', Times, serif;
+}
+
+h1, input {
+  font-family: 'Poppis', Arial, Helvetica, sans-serif;
+}
+
+input, h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+section img {
+  cursor: pointer;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+section img:hover {
+  -webkit-filter: brightness(0.7);
+          filter: brightness(0.7);
+}
+
+body {
+  background-image: url(../assets/images/background.webp);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-size: 120%;
+  height: 100vh;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0px;
+}
+
+#home {
+  background-color: #fff;
+  width: 100vw;
+  max-width: 45rem;
+  padding: 3rem;
+  border-radius: .8rem;
+  /*header===================*/
+  /*header======================*/
+  /*main========================*/
+  /*main===================*/
+}
+
+#home header {
+  text-align: center;
+  margin: 1rem 0 4rem 0;
+}
+
+#home main {
+  /*form===================*/
+  /*form===================*/
+  /*signIn<section>===================*/
+  /*signIn<section>===================*/
+}
+
+#home main h2 {
+  margin: 1rem 0 .5rem 0;
+  color: #333;
+  font-weight: 600;
+}
+
+#home main form input {
+  width: 100%;
+  display: block;
+  padding: 1.8rem 0 1.3rem 4rem;
+  border-bottom: 1px solid rgba(168, 167, 167, 0.562);
+  color: #333;
+  font-weight: 500;
+  outline: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#home main form input:focus {
+  padding: 2rem 0 1.3rem 6rem;
+  border-bottom: 1px solid #9c54f3;
+}
+
+#home main form input::-webkit-input-placeholder {
+  font: 400 1.8rem 'Roboto','Arial',serif;
+  color: #333;
+}
+
+#home main form input:-ms-input-placeholder {
+  font: 400 1.8rem 'Roboto','Arial',serif;
+  color: #333;
+}
+
+#home main form input::-ms-input-placeholder {
+  font: 400 1.8rem 'Roboto','Arial',serif;
+  color: #333;
+}
+
+#home main form input::placeholder {
+  font: 400 1.8rem 'Roboto','Arial',serif;
+  color: #333;
+}
+
+#home main form img {
+  position: relative;
+  bottom: 36px;
+  opacity: 0.4;
+}
+
+#home main form span {
+  display: block;
+  text-align: right;
+  color: #333;
+}
+
+#home main form button {
+  color: #fff;
+  background: -webkit-gradient(linear, right top, left top, color-stop(25%, #e317fc), color-stop(#9c54f3), to(#0fcee0));
+  background: linear-gradient(to left, #e317fc 25%, #9c54f3, #0fcee0);
+  background-size: 130%;
+  width: 100%;
+  font: 600 1.8rem 'Poppins','Arial', serif;
+  margin: 2rem 0;
+  height: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0px;
+  border-radius: 3rem;
+  -webkit-transition: .2s;
+  transition: .2s;
+  cursor: pointer;
+}
+
+#home main form button:hover {
+  -webkit-animation: gradient 5s infinite ease-in-out;
+          animation: gradient 5s infinite ease-in-out;
+}
+
+#home main .separator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0px;
+  margin: 3em 0em 1em;
+}
+
+#home main .signIn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 0px;
+  gap: 0.8rem;
+}
+
+#home main .signIn div .srOnly {
+  overflow: none;
+  position: absolute;
+  top: -1px;
+  font-size: 1px;
+}
+
+#home main .signIn div .googleImg {
+  width: 42px;
+  border-radius: 50%;
+}
+
+.googleImg {
+  width: 42px;
+  border-radius: 50%;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/*# sourceMappingURL=home.css.map */
