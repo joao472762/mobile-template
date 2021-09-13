@@ -39,7 +39,7 @@ export function Home(){
                     </div>
 
                     <div className="login">
-                    <span className='srOnly'>entrar com o twitter</span>
+                        <span className='srOnly'>entrar com o twitter</span>
                         <img src={twitterIcon} alt="icone do twiter" />
                     </div>
 
